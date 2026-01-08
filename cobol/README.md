@@ -143,11 +143,29 @@ If any error occurs, an appropriate error message will be displayed with the fil
 ```
 .
 ├── cobol/
-│   └── ADDNUM.cbl       # COBOL source code
-├── data/
-│   └── numbers.txt      # Input/Output data file
-└── cobol/README.md      # This file
+│   ├── ADDNUM.cbl       # COBOL source code
+│   ├── demo.sh          # Demonstration script
+│   ├── test.sh          # Test script with multiple test cases
+│   └── README.md        # This file
+└── data/
+    └── numbers.txt      # Input/Output data file
 ```
+
+## Quick Start
+
+### Running the Demo
+```bash
+./cobol/demo.sh
+```
+
+This will show the complete process: original file → program execution → updated file.
+
+### Running Tests
+```bash
+bash cobol/test.sh
+```
+
+This runs multiple test cases to verify the program works correctly with different inputs.
 
 ## Common Issues and Solutions
 
