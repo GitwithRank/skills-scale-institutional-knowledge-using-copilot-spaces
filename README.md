@@ -10,6 +10,27 @@ Remember, it's self-paced so feel free to take a break! ☕️
 
 [![](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/GitwithRank/skills-scale-institutional-knowledge-using-copilot-spaces/issues/1)
 
+## 📦 Repository Contents
+
+### COBOL Addition Program
+A complete COBOL implementation that reads two numbers from an input file, adds them together, and writes the result back to the same file.
+
+**Location:** [`cobol/`](cobol/)
+
+**Quick Start:**
+```bash
+# Compile (requires GnuCOBOL)
+cobc -x -o cobol/ADDNUM cobol/ADDNUM.cbl
+
+# Run demo
+./cobol/demo.sh
+
+# Run tests
+bash cobol/test.sh
+```
+
+See the [COBOL README](cobol/README.md) for detailed documentation.
+
 ---
 
 &copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
